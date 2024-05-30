@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+}
+.container::after{
+    content: "Visit Ijebu-Ode";
+    position: absolute;
+    top: 10px;
+    left: 700px;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 6rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+.grid img{
+    border-radius: 100px;
+}
+.foot{
+    display: flex;
+    text-align: center;
+    background-color: aqua;
+    margin-left: 50rem;
+    margin-right: 19rem;
+}
+.font{
+    background-color: beige;
+}

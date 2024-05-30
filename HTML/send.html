@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Money</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Crypto Website</h1>
+        <nav>
+            <ul>
+                <li><a href="cryptos.html">Home</a></li>
+                <li><a href="send.html">Send Money</a></li>
+                <li><a href="receive.html">Receive Money</a></li>
+                <li><a href="converter.html">Converter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Send Money</h2>
+        <div>
+            <input type="text" id="recipientAddress" placeholder="Recipient Address" class="input">
+            <input type="text" id="amount" placeholder="Amount (ETH)" class="input">
+            <button onclick="sendMoney()" class="button">Send</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Crypto Website</p>
+    </footer>
+</body>
+</html>
